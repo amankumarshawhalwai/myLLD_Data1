@@ -10,6 +10,7 @@ public class test5 {
         {
             s+=i;
         }
-        System.out.println("The sum is = "+s);
+        System.out.println("The sum is= "+s);
+        System.out.println("The new sum is= "+(s+1));
     }
 }
