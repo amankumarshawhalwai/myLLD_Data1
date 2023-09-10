@@ -1,4 +1,4 @@
-package OOP1_19082023;
+package OOP1_Intro;
 //Student class to be called by StudentCaller
 public class Student {
     String name;

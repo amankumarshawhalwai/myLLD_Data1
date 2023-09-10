@@ -1,4 +1,4 @@
-package OOP1_19082023;
+package OOP1_Intro;
 import java.util.*;
 public class RectangleCaller {
     //Main method for calling the point and rectangle classes and its nethods

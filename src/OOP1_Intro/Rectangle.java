@@ -1,4 +1,4 @@
-package OOP1_19082023;
+package OOP1_Intro;
 
 public class Rectangle {
     int length;
