@@ -1,4 +1,4 @@
-package OOP1_Intro;
+package oop1_intro;
 
 public class StudentCaller {
     //Main method for calling the Student class and its methods here

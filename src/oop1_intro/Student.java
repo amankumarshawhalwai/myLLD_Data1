@@ -1,4 +1,4 @@
-package OOP1_Intro;
+package oop1_intro;
 //Student class to be called by StudentCaller
 public class Student {
     String name;

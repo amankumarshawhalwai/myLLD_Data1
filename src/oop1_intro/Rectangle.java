@@ -1,4 +1,4 @@
-package OOP1_Intro;
+package oop1_intro;
 
 public class Rectangle {
     int length;
