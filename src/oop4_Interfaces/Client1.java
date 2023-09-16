@@ -7,5 +7,6 @@ public class Client1 {
         c.run();
         c.walk();
         c.voice();
+        c.sleep();
     }
 }

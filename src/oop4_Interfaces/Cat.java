@@ -12,6 +12,11 @@ public class Cat implements Animal{
     }
 
     @Override
+    public void sleep() {
+        System.out.println("Cat Sleeps");
+    }
+
+    @Override
     public void walk() {
         System.out.println("Cat walks");
     }

@@ -4,4 +4,5 @@ public interface Animal {
      void eat();
     void walk();
     void run();
+    void sleep();
 }
