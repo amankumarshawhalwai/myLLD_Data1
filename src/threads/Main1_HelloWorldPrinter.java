@@ -1,6 +1,6 @@
 package threads;
 
-public class Main1 {
+public class Main1_HelloWorldPrinter {
     public static void main(String[] args) {
         int a=10;
         int b=20;

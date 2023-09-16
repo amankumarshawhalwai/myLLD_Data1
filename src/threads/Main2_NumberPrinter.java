@@ -6,7 +6,7 @@ package threads;
 
 public class Main2_NumberPrinter {
     public static void main(String[] args) {
-        for(int i=1;i<=100;i++)
+        for(int i=1;i<=1000;i++)
         {
             NumberPrinter numPrinter= new NumberPrinter(i);
             Thread t2= new Thread(numPrinter);
