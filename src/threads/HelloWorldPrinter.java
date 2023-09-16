@@ -1,4 +1,4 @@
-package Concurrency;
+package threads;
 
 public class HelloWorldPrinter implements Runnable{
 
