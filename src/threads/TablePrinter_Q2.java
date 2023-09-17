@@ -1,8 +1,8 @@
 package threads;
 
 public class TablePrinter_Q2 implements Runnable{
-    private int num1;
-    private int num2;
+    private final int num1;
+    private final int num2;
 
     public TablePrinter_Q2(int num1,int num2)
     {
