@@ -1,10 +1,10 @@
 package threads;
 
-public class TablePrinter_Q2 implements Runnable{
+public class TablePrinter_Q2_Part1 implements Runnable{
     private final int num1;
     private final int num2;
 
-    public TablePrinter_Q2(int num1,int num2)
+    public TablePrinter_Q2_Part1(int num1, int num2)
     {
         this.num1=num1;
         this.num2=num2;
