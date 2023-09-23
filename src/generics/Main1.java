@@ -1,5 +1,8 @@
 package generics;
 
+import javafx.util.Pair;
+import oop4_Interfaces.Animal;
+
 import java.util.*;
 
 public class Main1 {
@@ -29,5 +32,37 @@ public class Main1 {
         p1.printMoreFirst(new ArrayList<Integer>(){{
             add(3);add(1);add(8);add(9);
         }});
+
+        Pair1<Animal1, Integer> animalCount= new Pair1<>(new Animal1(),4);
+        Animal1 a1= new Animal1();
+        a1.name="Rich";
+        Animal1 a2= new Animal1();
+        a2.name="John";
+        Animal1 a3= new Animal1();
+        a3.name="Michael";
+        Animal1 a4= new Dog1();
+        a4.name="Doggy1";
+
+       ArrayList<Animal1> animalList= new ArrayList<>();
+       animalList.add(a4);
+
+       for(Animal1 ani: animalList){
+           System.out.println(ani);
+       }
+        animalCount.printMoreFirst(new ArrayList<Animal1>(){{add(a1);add(a2);add(a3);add(a4);}});
+
+        /**
+         If I can pass a Dog to a variable of data type Animal
+         I should be able to pass a List<Dog> to a variable of type List<Animal>
+         But this does not happens. This can be seen from line 60
+
+        */
+
+        List<Dog1> dogs = new ArrayList<>();
+        List<Dog1> l1=dogs;
+
+        List<? extends Animal1> l2=l1;
+
+
     }
 }
