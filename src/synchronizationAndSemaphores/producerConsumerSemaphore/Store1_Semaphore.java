@@ -1,14 +1,15 @@
 package synchronizationAndSemaphores.producerConsumerSemaphore;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 public class Store1_Semaphore {
     private int maxsize;
-    private List<Object> items;
+    private LinkedList<Object> items;
     public Store1_Semaphore(int maxSize)
     {
         this.maxsize=maxSize;
-        this.items= new ArrayList<>();
+        this.items= new LinkedList<>();
     }
     public void setMaxsize(int maxsize){
         this.maxsize=maxsize;
@@ -17,11 +18,11 @@ public class Store1_Semaphore {
     {
         return maxsize;
     }
-    public void setItems(List<Object> items)
+    public void setItems(LinkedList<Object> items)
     {
         this.items=items;
     }
-    public List<Object> getItems(){
+    public LinkedList<Object> getItems(){
         return items;
     }
     public void addItems(){
