@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Main_Comparisons {
+public class Main_Comparable {
 
     public static void main(String[] args) {
        List<Student_Comparable> Lc= new ArrayList<>();
