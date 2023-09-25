@@ -20,9 +20,19 @@ public class Main_Comparator {
             System.out.println(s1);
         System.out.println("*****************************************************");
         System.out.println("SORTING BY AGE");
-        lc.sort(new Student_CompartorByAge());
+        lc.sort(new Student_ComparatorByAge());
         for(StudentData s2:lc)
             System.out.println(s2);
+        System.out.println("*****************************************************");
+        System.out.println("SORTING BY ID");
+        lc.sort(new Student_ComparatorById());
+        for(StudentData s3:lc)
+            System.out.println(s3);
+        System.out.println("*****************************************************");
+        System.out.println("SORTING BY NAME");
+        lc.sort(new Student_ComparatorByName());
+        for(StudentData s4:lc)
+            System.out.println(s4);
         System.out.println("*****************************************************");
     }
 }
