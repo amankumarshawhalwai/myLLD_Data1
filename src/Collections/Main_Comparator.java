@@ -14,8 +14,15 @@ public class Main_Comparator {
 
 
         //Collections.sort(lc,new Student_ComparatorByPSP());
+        System.out.println("SORTING BY PSP");
         lc.sort(new Student_ComparatorByPSP()); //This also works fine
-        for(StudentData s:lc)
-            System.out.println(s);
+        for(StudentData s1:lc)
+            System.out.println(s1);
+        System.out.println("*****************************************************");
+        System.out.println("SORTING BY AGE");
+        lc.sort(new Student_CompartorByAge());
+        for(StudentData s2:lc)
+            System.out.println(s2);
+        System.out.println("*****************************************************");
     }
 }
