@@ -2,7 +2,7 @@ package lambdasAndStreams.comparatorLambda;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
+
 
 public class Client_ComparatorLambda {
     public static void main(String[] args) {
@@ -27,6 +27,5 @@ public class Client_ComparatorLambda {
         });
         for(Student_Lambda s1:arr)
             System.out.println(s1);
-
     }
 }

@@ -11,7 +11,6 @@ public class Student_Lambda {
         this.name=name;
         this.marks=marks;
     }
-
     @Override
     public String toString() {
         return "Student_Lambda{" +
