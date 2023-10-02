@@ -22,7 +22,5 @@ public class Stream6 {
 
         //MULTI RESULT
         System.out.println(arr.stream().reduce(1,(curr,ele)->curr*ele));
-
-
     }
 }
